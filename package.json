@@ -1,0 +1,13 @@
+{
+  "name": "ai-agent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.ts",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "openai": "^4.80.1",
+    "readline-sync": "^1.4.10"
+  }
+}
